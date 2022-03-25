@@ -2,6 +2,7 @@
 /public/css
 /public/js
 /public/media
+/public/bundles
 !/public/media/image/.gitkeep
 
 /node_modules
@@ -21,8 +22,10 @@
 /.env.*.local
 /.env.local
 /.env.local.php
-/public/bundles
-/var/
+/var/cache
+/var/log
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
 /vendor/
 ###< symfony/framework-bundle ###
 
